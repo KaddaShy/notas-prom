@@ -27,7 +27,7 @@
             android:text="Nombre" />
 
         <EditText
-            android:id="@+id/nombre"
+            android:id="@+id/tx_nombre"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
@@ -40,7 +40,7 @@
             android:text="Apellido" />
 
         <EditText
-            android:id="@+id/apellido"
+            android:id="@+id/tx_apellido"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
@@ -66,7 +66,7 @@
                 android:text="Nota 1" />
 
             <EditText
-                android:id="@+id/editTextNumberDecimal2"
+                android:id="@+id/nota3"
                 android:layout_width="55dp"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/textView6"
@@ -89,7 +89,7 @@
                 android:text="Nota 2" />
 
             <EditText
-                android:id="@+id/editTextNumberDecimal3"
+                android:id="@+id/nota1"
                 android:layout_width="44dp"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/textView4"
@@ -110,31 +110,17 @@
                 android:text="Nota 3" />
 
             <EditText
-                android:id="@+id/editTextNumberDecimal4"
+                android:id="@+id/nota2"
                 android:layout_width="47dp"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/textView5"
                 android:layout_marginStart="87dp"
                 android:layout_marginTop="15dp"
                 android:layout_marginEnd="87dp"
-                android:layout_toStartOf="@+id/editTextNumberDecimal2"
-                android:layout_toEndOf="@+id/editTextNumberDecimal3"
+                android:layout_toStartOf="@+id/nota3"
+                android:layout_toEndOf="@+id/nota1"
                 android:ems="10"
                 android:inputType="numberDecimal" />
-
-            <TextView
-                android:id="@+id/textView7"
-                android:layout_width="104dp"
-                android:layout_height="wrap_content"
-                android:layout_alignParentStart="true"
-                android:layout_alignParentTop="true"
-                android:layout_marginStart="40dp"
-                android:layout_marginTop="227dp"
-                android:layout_marginEnd="83dp"
-                android:layout_toStartOf="@+id/textView8"
-                android:text="Promedio"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
 
             <TextView
                 android:id="@+id/textView8"
@@ -142,29 +128,18 @@
                 android:layout_height="wrap_content"
                 android:layout_alignParentTop="true"
                 android:layout_alignParentEnd="true"
-                android:layout_marginTop="227dp"
-                android:layout_marginEnd="105dp"
-                android:text="Estado" />
+                android:layout_marginTop="175dp"
+                android:layout_marginEnd="299dp"
+                android:text="Estado:" />
 
             <TextView
                 android:id="@+id/tx_prom"
-                android:layout_width="55dp"
-                android:layout_height="wrap_content"
-                android:layout_below="@+id/textView7"
+                android:layout_width="293dp"
+                android:layout_height="89dp"
                 android:layout_alignParentStart="true"
-                android:layout_marginStart="48dp"
-                android:layout_marginTop="11dp" />
-
-            <TextView
-                android:id="@+id/tx_estado"
-                android:layout_width="46dp"
-                android:layout_height="wrap_content"
-                android:layout_below="@+id/textView8"
-                android:layout_alignParentEnd="true"
-                android:layout_marginStart="111dp"
-                android:layout_marginTop="15dp"
-                android:layout_marginEnd="99dp"
-                android:layout_toEndOf="@+id/tx_prom" />
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="194dp" />
 
         </RelativeLayout>
 
